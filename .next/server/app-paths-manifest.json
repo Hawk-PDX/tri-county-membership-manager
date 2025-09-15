@@ -1,4 +1,9 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
+  "/api/v1/auth/route": "app/api/v1/auth/route.js",
+  "/api/v1/health/route": "app/api/v1/health/route.js",
+  "/api/v1/members/route": "app/api/v1/members/route.js",
+  "/api/v1/waitlist/route": "app/api/v1/waitlist/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js"
 }
