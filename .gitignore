@@ -1,1 +1,85 @@
+# Dependencies
 node_modules/
+*.pnp
+.pnp.js
+
+# Testing
+/coverage
+*.lcov
+
+# Next.js
+/.next/
+/out/
+
+# Production build
+/build
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local env files
+.env*.local
+.env
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# AI assistance and artifacts
+.cursor/
+.aider*
+.claude*
+.ai-*
+ai-session*
+claude-*
+cursor-*
+.warp/
+WARP.md
+*.ai.md
+*.claude.md
+*.cursor.md
+*-ai-generated*
+*-claude-*
+*-cursor-*
+# Common AI chat export filenames
+chat-export*
+conversation-*
+ai-conversation*
+# AI project files
+.anthropic/
+.openai/
+.copilot/
+# AI debugging/testing files
+*ai*debug*
+*assistant*test*
+# Common AI tool artifacts
+*.prompt
+*.ai-context
+.ai-context/
+.prompts/
