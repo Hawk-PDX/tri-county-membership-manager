@@ -176,7 +176,7 @@ function getActiveSession(token: string): Session | null {
  * Endpoint to handle user registration
  */
 export async function POST(request: NextRequest) {
-  return apiHandler<AuthResponse>(request, async () => {
+  return apiHandler(request, async () => {
     const url = new URL(request.url);
     const path = url.pathname;
     
@@ -329,10 +329,7 @@ async function handleRegistration(request: NextRequest) {
       if (typeof waitlistMembers !== 'undefined') {
         waitlistMembers.push(newWaitlistMember);
         
-        // Recalculate positions if needed (function would be defined elsewhere)
-        if (typeof recalculateWaitlistPositions === 'function') {
-          recalculateWaitlistPositions();
-        }
+        // Note: Position recalculation is handled by the waitlist API endpoint
       }
     } else {
       return createErrorResponse(

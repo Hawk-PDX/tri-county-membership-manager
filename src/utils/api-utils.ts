@@ -60,10 +60,10 @@ export function createErrorResponse(
 /**
  * API request handler with error handling
  */
-export async function apiHandler<T>(
+export async function apiHandler(
   req: NextRequest,
-  handler: () => Promise<NextResponse<ApiSuccessResponse<T>>>
-): Promise<NextResponse<ApiSuccessResponse<T> | ApiErrorResponse>> {
+  handler: () => Promise<NextResponse<any>>
+): Promise<NextResponse<any>> {
   try {
     return await handler();
   } catch (error) {

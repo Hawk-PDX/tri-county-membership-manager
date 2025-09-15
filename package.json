@@ -1,14 +1,14 @@
 {
-  "name": "next-api",
+  "name": "tri-county-membership-manager",
   "version": "1.0.0",
-  "description": "api build",
-  "homepage": "https://github.com/hawkpdx/next-api#readme",
+  "description": "A comprehensive membership management system for organizations",
+  "homepage": "https://github.com/hawkpdx/tri-county-membership-manager#readme",
   "bugs": {
-    "url": "https://github.com/hawkpdx/next-api/issues"
+    "url": "https://github.com/hawkpdx/tri-county-membership-manager/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hawkpdx/next-api.git"
+    "url": "git+https://github.com/hawkpdx/tri-county-membership-manager.git"
   },
   "license": "ISC",
   "author": "Garrett Hawkins",
@@ -21,9 +21,11 @@
     "test": "npm run dev"
   },
   "dependencies": {
+    "@types/uuid": "^10.0.0",
     "next": "^14.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",

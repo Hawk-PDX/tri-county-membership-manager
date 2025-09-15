@@ -79,7 +79,7 @@ async function requirePermission(
  * Supports pagination and filtering
  */
 export async function GET(request: NextRequest) {
-  return apiHandler<MembersResponse>(request, async () => {
+  return apiHandler(request, async () => {
     // Check permissions
     const { isAuthorized, session } = await requirePermission(
       request, 
@@ -126,7 +126,7 @@ export async function GET(request: NextRequest) {
  * POST handler for creating a new member
  */
 export async function POST(request: NextRequest) {
-  return apiHandler<Member>(request, async () => {
+  return apiHandler(request, async () => {
     // Check permissions
     const { isAuthorized, session } = await requirePermission(
       request, 
@@ -208,7 +208,7 @@ export async function POST(request: NextRequest) {
  * PATCH handler for updating a member
  */
 export async function PATCH(request: NextRequest) {
-  return apiHandler<Member>(request, async () => {
+  return apiHandler(request, async () => {
     // Get member ID from URL
     const url = new URL(request.url);
     const pathParts = url.pathname.split('/');

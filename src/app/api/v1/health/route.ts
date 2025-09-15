@@ -21,7 +21,7 @@ interface HealthStatus {
  * GET handler for health check endpoint
  */
 export async function GET(req: NextRequest) {
-  return apiHandler<HealthStatus>(req, async () => {
+  return apiHandler(req, async () => {
     // Calculate server uptime in seconds
     const uptime = Math.floor(process.uptime());
     

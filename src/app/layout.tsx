@@ -16,10 +16,10 @@ const sourceCodePro = Source_Code_Pro({
 
 // API Project metadata
 export const metadata: Metadata = {
-  title: "Next.js API Project",
-  description: "A Next.js application focused on API development with TypeScript",
-  keywords: ["nextjs", "api", "typescript", "react"],
-  authors: [{ name: "Developer" }],
+  title: "Tri-county Membership Manager",
+  description: "A comprehensive membership management system with waitlist functionality, built with Next.js and TypeScript",
+  keywords: ["membership", "management", "nextjs", "api", "typescript", "react", "waitlist"],
+  authors: [{ name: "Garrett Hawkins" }],
 };
 
 // Define the type for navigation items
@@ -51,7 +51,7 @@ export default function RootLayout({
           <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between">
             <div className="text-xl font-bold mb-4 sm:mb-0">
               <Link href="/" className="hover:text-blue-300 transition-colors">
-                Next.js API Project
+                Tri-county Membership Manager
               </Link>
             </div>
             <nav>
@@ -75,7 +75,7 @@ export default function RootLayout({
         </main>
         <footer className="bg-zinc-800 text-white p-4 mt-8">
           <div className="container mx-auto text-center">
-            <p>&copy; {new Date().getFullYear()} Next.js API Project</p>
+            <p>&copy; {new Date().getFullYear()} Tri-county Membership Manager</p>
           </div>
         </footer>
       </body>

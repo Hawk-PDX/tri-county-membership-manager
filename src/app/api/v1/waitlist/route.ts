@@ -102,7 +102,7 @@ function recalculateWaitlistPositions() {
  * Supports pagination and filtering
  */
 export async function GET(request: NextRequest) {
-  return apiHandler<WaitlistResponse>(request, async () => {
+  return apiHandler(request, async () => {
     // Check permissions
     const { isAuthorized } = await requirePermission(
       request, 
@@ -157,7 +157,7 @@ export async function GET(request: NextRequest) {
  * POST handler for adding a new application to waitlist
  */
 export async function POST(request: NextRequest) {
-  return apiHandler<WaitlistMember>(request, async () => {
+  return apiHandler(request, async () => {
     // Parse request body
     const applicationData: WaitlistRequest = await request.json();
     
@@ -235,7 +235,7 @@ export async function POST(request: NextRequest) {
  * PATCH handler for updating a waitlist member or changing status
  */
 export async function PATCH(request: NextRequest) {
-  return apiHandler<WaitlistMember | Member>(request, async () => {
+  return apiHandler(request, async () => {
     // Get waitlist member ID from URL
     const url = new URL(request.url);
     const pathParts = url.pathname.split('/');
@@ -446,4 +446,7 @@ export async function DELETE(request: NextRequest) {
     return createSuccessResponse(
       { id: deletedMemberId, deleted: true },
       HttpStatus.OK
+    );
+  });
+}
 
