@@ -4,12 +4,11 @@ export default function CalendarPage() {
   return (
     <PageContainer
       title="Event Calendar"
-      subtitle="Stay updated with upcoming events, competitions, and activities"
+      subtitle="Events, competitions, and activities"
     >
       <div className="bg-white rounded-lg shadow-md p-8">
         <p className="text-gray-600 mb-6">
-          Check back soon for our comprehensive event calendar featuring competitions, 
-          training sessions, and club activities.
+          Event calendar coming soon.
         </p>
         
         <div className="border-t pt-6">

@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 
 export const metadata = {
   title: 'Tri-County Gun Club',
-  description: 'Premier shooting facility offering ranges, training, and activities for all skill levels',
+  description: 'Oregon shooting club with ranges, training, and competitions',
 };
 
 export default function RootLayout({ children }) {

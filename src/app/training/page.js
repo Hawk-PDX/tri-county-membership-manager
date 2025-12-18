@@ -5,13 +5,11 @@ export default function TrainingPage() {
   return (
     <PageContainer
       title="Training & Certification"
-      subtitle="Professional instruction for all skill levels"
+      subtitle="Courses for all skill levels"
     >
       <div className="bg-white rounded-lg shadow-md p-8 mb-8">
         <p className="text-gray-600 mb-4">
-          Our certified instructors offer comprehensive training programs from basic safety 
-          to advanced tactical skills. Whether you're a first-time shooter or an experienced 
-          competitor, we have courses to help you develop your skills.
+          Training courses from basic safety to advanced skills.
         </p>
         <Link
           href="/training/online-registration"

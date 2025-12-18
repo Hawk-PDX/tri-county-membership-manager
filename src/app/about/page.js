@@ -16,18 +16,12 @@ export default function AboutPage() {
   return (
     <PageContainer
       title="About Tri-County Gun Club"
-      subtitle="Oregon's premier shooting sports facility"
+      subtitle="Oregon shooting sports facility"
     >
       <div className="bg-white rounded-lg shadow-md p-8 mb-8">
-        <h2 className="text-2xl font-bold mb-4">Welcome to Our Club</h2>
+        <h2 className="text-2xl font-bold mb-4">About the Club</h2>
         <p className="text-gray-600 mb-4">
-          Tri-County Gun Club is dedicated to promoting safe, responsible shooting sports 
-          and providing world-class facilities for our members and guests. With a rich history 
-          and commitment to excellence, we serve shooters of all skill levels.
-        </p>
-        <p className="text-gray-600">
-          Whether you're interested in competitive shooting, recreational practice, or 
-          professional training, our facilities and programs are designed to meet your needs.
+          Tri-County Gun Club serves shooters of all skill levels with ranges, training, and competitive events.
         </p>
       </div>
 

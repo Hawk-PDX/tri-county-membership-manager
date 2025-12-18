@@ -17,13 +17,12 @@ export default function FacilitiesPage() {
 
   return (
     <PageContainer
-      title="Our Facilities"
-      subtitle="World-class ranges for every shooting discipline"
+      title="Facilities"
+      subtitle="Ranges for all shooting disciplines"
     >
       <div className="bg-white rounded-lg shadow-md p-8 mb-8">
         <p className="text-gray-600 mb-4">
-          Tri-County Gun Club features some of the finest shooting facilities in the Pacific Northwest. 
-          Our ranges are designed to accommodate shooters of all skill levels, from beginners to competitive athletes.
+          Multiple ranges for various shooting sports and skill levels.
         </p>
       </div>
 

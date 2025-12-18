@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/Users/hawkpdx/Development/code/projects_main/Tri-County-Membership-Manager/src/app/layout":["static/media/e4af272ccee01ff0-s.p.woff2","static/media/443896d591e4f761-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{},\"appUsingSizeAdjust\":false,\"pagesUsingSizeAdjust\":false}"
