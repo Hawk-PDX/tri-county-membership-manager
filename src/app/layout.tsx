@@ -51,7 +51,7 @@ export default function RootLayout({
           <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between">
             <div className="text-xl font-bold mb-4 sm:mb-0">
               <Link href="/" className="hover:text-blue-300 transition-colors">
-                Tri-county Membership Manager
+                Tri-county Gun Club Tualatin, Oregon
               </Link>
             </div>
             <nav>

@@ -38,6 +38,7 @@ next-env.d.ts
 # IDE files
 .vscode/
 .idea/
+.history/
 *.swp
 *.swo
 *~
@@ -83,3 +84,4 @@ ai-conversation*
 *.ai-context
 .ai-context/
 .prompts/
+SCAFFOLD_SUMMARY.md
