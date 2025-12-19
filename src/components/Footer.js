@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import MapView from './MapView';
 
 export default function Footer() {
   return (
@@ -8,7 +9,11 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Tri-County Gun Club</h3>
             <p className="text-gray-400 mb-2">
-              Oregon shooting sports facility
+              Oregon shooting sports facility:<br />
+              13050 S.W. Tonquin Road
+              Suite 200<br />
+              Sherwood, OR 97140<br />
+              Phone: 503-625-7318<br />
             </p>
           </div>
 
@@ -65,10 +70,15 @@ export default function Footer() {
           </div>
         </div>
 
+        <div className="border-t border-gray-800 mt-8 pt-6">
+          <h3 className="text-xl font-bold mb-4 text-center">Visit Us</h3>
+          <MapView />
+        </div>
+
         <div className="border-t border-gray-800 mt-8 pt-6 text-center text-gray-400">
           <p>&copy; {new Date().getFullYear()} Rose City Dev. All rights reserved.</p>
         </div>
       </div>
-    </footer>
+    </footer >
   );
 }
