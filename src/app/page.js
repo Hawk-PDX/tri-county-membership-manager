@@ -8,15 +8,15 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center">
           <div className="flex justify-center mb-6">
             <div className="bg-white/95 backdrop-blur-sm rounded-lg px-8 py-4 shadow-2xl">
-            <Image
-              src="/tri-county-logo.png"
-              alt="Tri-County Gun Club"
-              width={1266}
-              height={238}
-              className="h-40 w-auto"
-              quality={100}
-              priority
-            />
+              <Image
+                src="/tri-county-logo.png"
+                alt="Tri-County Gun Club"
+                width={1266}
+                height={238}
+                className="h-40 w-auto"
+                quality={100}
+                priority
+              />
             </div>
           </div>
           <p className="text-xl mb-8">
@@ -41,7 +41,7 @@ export default function Home() {
 
       <section className="bg-gray-700 py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12 text-white">Our Facilities</h2>
+          <h2 className="text-4xl font-bold text-center mb-12" style={{ color: '#009F1E', textShadow: '2px 2px 0 #1f2937' }}>Our Facilities</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white backdrop-blur-sm p-6 rounded-lg shadow-xl hover:shadow-2xl transition-all">
               <h3 className="text-2xl font-bold mb-3 text-gray-900 border-b-2 border-green-600 pb-2">Multiple Ranges</h3>
@@ -78,7 +78,7 @@ export default function Home() {
 
       <section className="bg-gray-600 py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12 text-white">Getting Started</h2>
+          <h2 className="text-4xl font-bold text-center mb-12" style={{ color: '#009F1E', textShadow: '2px 2px 0 #1f2937' }}>Getting Started</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Link
               href="/calendar"
@@ -117,7 +117,7 @@ export default function Home() {
 
       <section className="bg-blue-600 text-white py-16">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold text-center mb-4">Ready to Join?</h2>
+          <h2 className="text-4xl font-bold text-center mb-4" style={{ color: '#009F1E', textShadow: '2px 2px 0 #1f2937' }}>Ready to Join?</h2>
           <p className="text-xl mb-8">
             Membership info and applications
           </p>
