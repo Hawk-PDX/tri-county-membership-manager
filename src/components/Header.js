@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { navigationData } from '@/constants/navigation';
 
 export default function Header() {
@@ -19,9 +20,16 @@ export default function Header() {
   return (
     <header className="bg-gray-900 text-white shadow-md">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between py-4">
-          <Link href="/" className="text-2xl font-bold hover:text-gray-300 transition">
-            Tri-County Gun Club
+        <div className="flex items-center justify-between py-6">
+          <Link href="/" className="flex items-center hover:opacity-80 transition">
+            <Image
+              src="/tri-county-symbol.png"
+              alt="Tri-County Gun Club"
+              width={135}
+              height={119}
+              className="h-14 w-auto"
+              priority
+            />
           </Link>
 
           <nav className="hidden lg:flex items-center space-x-1">
