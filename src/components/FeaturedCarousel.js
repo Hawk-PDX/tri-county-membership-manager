@@ -68,7 +68,7 @@ export default function FeaturedCarousel() {
                 src={feat.image}
                 alt={feat.title}
                 fill
-                className="object-cover"
+                className="object-contain"
                 priority={index === 0}
                 quality={85}
               />
