@@ -13,7 +13,7 @@ Website for Tri-County Gun Club built with Next.js 14 and Tailwind CSS.
 ## Setup
 
 ```bash
-git clone https://github.com/hawkpdx/tri-county-membership-manager.git
+git clone https://github.com/Hawk-PDX/tri-county-membership-manager.git
 cd tri-county-membership-manager
 npm install
 npm run dev
@@ -40,4 +40,4 @@ ISC
 
 ## Author
 
-Garrett Hawkins - [@hawkpdx](https://github.com/hawkpdx)
+Garrett Hawkins - [@Hawk-PDX](https://github.com/Hawk-PDX)
