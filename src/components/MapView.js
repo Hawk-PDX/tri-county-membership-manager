@@ -4,7 +4,7 @@ import { APIProvider, Map, Marker } from '@vis.gl/react-google-maps';
 
 export default function MapView() {
   // Tri-County Gun Club location
-  const clubLocation = { lat: 45.3515, lng: -122.8515 }; // 13050 S.W. Tonquin Road, Sherwood, OR
+  const clubLocation = { lat: 45.35002140, lng: -122.80738990 }; // 13050 S.W. Tonquin Road, Sherwood, OR
 
   const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
 
